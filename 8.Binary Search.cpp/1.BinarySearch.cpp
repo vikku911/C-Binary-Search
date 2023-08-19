@@ -32,8 +32,8 @@ int main(){
     int odd[5] = {2,4,5,7,8};
     int even[6] = { 2,4,5,8,19,21};
    
-   int indexodd = binarySearch(even,6,16); 
-   int indexeven = binarySearch(odd,5,8);
+   int indexodd = binarySearch(odd,6,16); 
+   int indexeven = binarySearch(even,5,8);
    
    cout<<"For odd array key  16  is present at  "<<indexodd<<" index"<<endl;
    cout<<"For even array key  8  is present at  "<<indexeven<<" index"<<endl;
